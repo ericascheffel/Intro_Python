@@ -18,11 +18,11 @@ DESAFIO 2: Relembre o uso de padrões usando a ITERAÇÃO para criar um desenho/
 """
 
 """
-DESAFIO 4: Crie uma função que possibilite criar desenhos|figuras|formas com base em alguns argumentos 
+DESAFIO 3: Crie uma função que possibilite criar desenhos|figuras|formas com base em alguns argumentos 
 """
 
 """
-DESAFIO 3: Crie uma função que ao ser chamada crie uma 'ÁRVORE'.
+DESAFIO 4: Crie uma função que ao ser chamada crie uma 'ÁRVORE'.
 
 Dica1: Fractal (do latim fractu: fração, quebrado) é uma figura da geometria não clássica muito encontrada 
        na natureza, isto é, um objeto em que suas partes separadas repetem os traços (a aparência) 
