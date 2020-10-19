@@ -1,4 +1,13 @@
 # Byte-compiled / optimized / DLL files
+#Aqui é possível informar ao Git quais arquivos  não serão enviados pelo commit
+#ignorando a pasta inteira >>> config_ide/
+# ignorando apenas o arquivo dentro da pasta >>> config_ide/config.ini
+#ignorando apenas arquivos com extensão .ini dentro da pasta >>> config_ide/*.ini
+# Ignorando todos os arquivos dentro da pasta >>> config_ide/*
+
+
+Turtle/Modelos.py
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,6 +17,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+
 build/
 develop-eggs/
 dist/
