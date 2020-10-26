@@ -17,6 +17,7 @@ DESAFIO 1: Crie algo com o turtle:
 DESAFIO 2: Relembre o uso de padrões usando a ITERAÇÃO para criar um desenho/figura/forma:
 """
 
+
 """
 DESAFIO 3: Crie uma função que possibilite criar desenhos|figuras|formas com base em alguns argumentos 
 """
