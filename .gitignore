@@ -6,7 +6,7 @@
 # Ignorando todos os arquivos dentro da pasta >>> config_ide/*
 
 
-Turtle/Modelos.py
+
 
 __pycache__/
 *.py[cod]
