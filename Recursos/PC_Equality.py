@@ -1251,28 +1251,11 @@ KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 """
 
-texto = list("xZZZxZZZx")
-
-
-
-
-#for i in texto:
-    #print(i.isupper())
-
-#comp_seq = (len(TEXTO_2)-(len(TEXTO_2))+tam_seq)
-#print(comp_seq)
-
 import re
 
-TESTE = "fUIAfEIRxNÃOsABIaOQUECOMPRACOMPREIUMACADEIRAPRAOLIVIASESENTARAOLIVIASESENTOU"
-zipando_texto = zip(TESTE, TESTE[1:],TESTE[2:],TESTE[3:],TESTE[4:],TESTE[5:],TESTE[6:],TESTE[7:],TESTE[8:])
+PATTERN = "[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]"
+PATTERN = "[a-z][A-Z]{3}([a-z])[A-Z]{3}[a-z]"
 
-caix_bool=[str(caracter.isupper()) for caracter in TESTE] # transforma a string em uma lista de correspondentes isupper()
-print(caix_bool)
+print(re.search(PATTERN, TEXTO_2))
 
-stencil = str([False, True, True, True, False, True, True, True, False])
-
-print(re.search("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", TESTE))
-
-
-print("".join(re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", TEXTO_2)))
+print("".join(re.findall(PATTERN, TEXTO_2)))

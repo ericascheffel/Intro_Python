@@ -102,31 +102,31 @@ def main():
     tree(75,flecha)
     done()
 
-main()
+#main()
 
-def arvre(branchLen, widthlen,flecha):
-    flecha.speed(1)
+def tree(branchLen,flecha):
+    #flecha.speed(1)
     if branchLen > 5:
         flecha.forward(branchLen) # desenha tronco
-        flecha.color("green")
-        flecha.width(2)
+        #flecha.color("green")
         flecha.right(20) # vira caneta 20° para direita
-        #tree(branchLen-15,flecha) # chama
-        flecha.left(40)
-        tree(branchLen-15,flecha)
-        flecha.right(20)
-        flecha.width(0)
-        flecha.backward(branchLen)
+        tree(branchLen-10,flecha) # chama a função do início reduzindo o galho
+        flecha.left(40) # Desfaz as rotações à direita
+        tree(branchLen-10,flecha) #chama a função do início reduzindo o galho
+        flecha.right(20) # rotaciona para fazer o ramo da esquerda
+        flecha.backward(branchLen) # retorna para o nó anterior
 
-def avre_():
-    flecha.left(90) # Vira a tartaruga para cima
-    flecha.up() # levanta caneta
-    flecha.backward(100) # regride 100 pixel
-    flecha.down() # abaixa caneta
+def main():
+    flecha.left(90)
+    flecha.up()
+    flecha.backward(100)
+    flecha.down()
     flecha.color("brown")
-    arvre(75,flecha) # Chama função arvre
+    flecha.width(5)
+    tree(75,flecha)
     done()
 
+main()
 
 #draw_Square_Spiral(flecha, 100)
 #constroi_flor(100,190)
