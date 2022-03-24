@@ -18,6 +18,7 @@ Na verdade vamos usar o Brython que é o Python que funciona dentro de um navega
 .. toctree::
     :maxdepth: 2
 
+    dez_minutos_pre.rst
     dez_minutos.rst
     dez_minutos_2.rst
     inicia.rst
