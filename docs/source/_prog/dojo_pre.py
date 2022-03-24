@@ -6,7 +6,7 @@ _SET0_ = {
 print("soma 1 + 2: ", 1+2)
 print("subtrai 2 - 1: ", 2-1)
 print("divide 4 / 2: ", 4/2)
-print("multiplica 1 + 2: ", 3*2)
+print("multiplica 3 x 2: ", 3*2)
 
 _SET1_ = {
     "script_name": "dojo_pre_1",
@@ -20,7 +20,7 @@ multiplica_tres_vezes_dois = 3*2
 print("soma 1 + 2: ", soma_um_mais_dois)
 print("subtrai 2 - 1: ", subtrai_um_de_dois)
 print("divide 4 / 2: ", divide_quatro_por_dois)
-print("multiplica 1 + 2: ", multiplica_tres_vezes_dois)
+print("multiplica 3 x 2: ", multiplica_tres_vezes_dois)
 
 _SET2_ = {
     "script_name": "dojo_pre_2",
@@ -50,6 +50,24 @@ for num in numeros_2_9_7:
 for taboada in intervalo_0_a_3:
     print("taboada de 2: ", 2*taboada)
 print("taboada de 3: ", taboada_de_3)
+
+_SETA_ = {
+    "script_name": "dojo_pre_3_1",
+    "script_div_id": "dojo_pre_3_1",
+    "height": 250, "index": "0.4.1", "title": "propriedades da lista"
+}  # _SEC_
+lista_int_0_a_9 = list(range(9))
+item_4_da_lista = lista_int_0_a_9[3]  # inicia no zero
+lista_ate_o_item_4 = lista_int_0_a_9[:4]  # exclui o quarto
+lista_do_item_4_em_diante = lista_int_0_a_9[3:]
+ultimo_item_da_lista = lista_int_0_a_9[-1]
+do_penultimo_item_em_diante = lista_int_0_a_9[-2:]
+print("uma cópia da lista: ", lista_int_0_a_9[:])
+print("item 4 da lista: ", item_4_da_lista)
+print("lista até o item_4: ", lista_ate_o_item_4)
+print("lista do item 4 em diante: ", lista_do_item_4_em_diante)
+print("último item da lista: ", ultimo_item_da_lista)
+print("do penúltimo item em diante: ", do_penultimo_item_em_diante)
 
 _SET4_ = {
     "script_name": "dojo_pre_4",
@@ -93,3 +111,22 @@ parte <= tela
 # Aqui a parte vai receber uma tela de desenho criada com o tamanho 400x200
 cores = 'cria aqui uma lista com as cores do arco iris'
 # desenhe aqui o seu arco-iris usando um for
+
+_SET7_ = {
+    "script_name": "dojo_pre_7",
+    "script_div_id": "dojo_pre_7",
+    "height": 300, "index": "0.8", "title": "brincando de Volpi"
+}  # _SEC_
+from browser import document
+from browser import svg
+from random import choice
+# O nome document aponta para uma lista das partes do navegador
+parte = document["volpi"]
+tela = svg.svg(width=400, height=200)
+parte <= tela
+# Aqui a parte vai receber uma tela de desenho criada com o tamanho 400x200
+cores = 'cria aqui uma lista com as cores do arco iris'
+# desenhe aqui o seu quadro de volpi usando um for e um "svg.path"
+...
+umacor = choice(cores)  # escolhe uma cor aleatória da lista de cores
+# bla bla svg.path((d=f"M{x} {y} h40 v50 l-20 -20 l-20 20 v-40 Z", style={'fill': umacor}))

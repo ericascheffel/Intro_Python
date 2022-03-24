@@ -13,7 +13,7 @@ def ordena_lista(lista, tipo):
     return lista_ordenada
 
 
-assert ordena_lista([6, 4,3,1,5,2], 'desc') == [1,2,3,4,5,6]
+assert ordena_lista([6, 4, 3, 1, 5, 2], 'desc') == [1, 2, 3, 4, 5, 6]
 
 _SET1_ = {
     "script_name": "dojo_1",

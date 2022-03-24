@@ -5,7 +5,7 @@
 Problemas para o Dojo Inicial
 ===============================
 
-2. Ordene uma lista
+1. Ordene uma lista
 -------------------------
 
 Crie uma função em Python que aceite dois parâmetros.
@@ -24,7 +24,7 @@ deve retornar a lista original inalterada.
   </script>
 
 
-3. Converta um número decimal em binário
+2. Converta um número decimal em binário
 --------------------------------------------------
 
 Escreva uma função em Python que aceite um número decimal e retorne o número binário equivalente.
@@ -35,7 +35,7 @@ o número binário retornado sempre terá menos de dez dígitos.
 
   <div id="dojo_1"></div>
 
-4. Conte as vogais em uma string
+3. Conte as vogais em uma string
 ---------------------------------
 
 Crie uma função em Python que aceite uma única palavra e retorne o número de vogais dessa palavra.
@@ -46,7 +46,7 @@ Nesta função, apenas a, e, i, o e u serão contados como vogais — não y.
   <div id="dojo_2"></div>
 
 
-5. Oculte o número do cartão de crédito
+4. Oculte o número do cartão de crédito
 ------------------------------------------------------------------
 
 Escreva uma função em Python que aceite um número de cartão de crédito.
@@ -58,7 +58,7 @@ ela deverá retornar "############4444".
 
   <div id="dojo_3"></div>
 
-6. Os Xs são iguais aos Os?
+5. Os Xs são iguais aos Os?
 ---------------------------------
 
 Crie uma função Python que aceite uma string. Esta função deve contar
@@ -72,7 +72,7 @@ A string pode conter qualquer tipo e número de caracteres.
 
   <div id="dojo_4"></div>
 
-7. Crie uma função de calculadora
+6. Crie uma função de calculadora
 ---------------------------------
 
 Escreva uma função Python que aceite três parâmetros. O primeiro parâmetro é um número inteiro.
@@ -85,7 +85,7 @@ Por exemplo, se a função for passada 6 e 4, ela deve retornar 24.
 
   <div id="dojo_5"></div>
 
-8. Dê-me o desconto
+7. Dê-me o desconto
 ---------------------------------
 
 Crie uma função em Python que aceite dois parâmetros.
@@ -99,7 +99,7 @@ Por exemplo, se o preço for 100 e o desconto for 20, a função deve retornar 8
 
   <div id="dojo_6"></div>
 
-9. Apenas os números
+8. Apenas os números
 ---------------------------------
 
 Escreva uma função em Python que aceite uma lista de qualquer tamanho
@@ -110,7 +110,7 @@ A função deve retornar uma lista apenas com os inteiros da lista original na m
 
   <div id="dojo_7"></div>
 
-10. Repita os caracteres
+9. Repita os caracteres
 ---------------------------------
 
 Crie uma função Python que aceite uma string.
