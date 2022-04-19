@@ -24,6 +24,7 @@ Na verdade vamos usar o Brython que é o Python que funciona dentro de um navega
     inicia.rst
     tipos.rst
 
+    code_esquenta_0.rst
     dojo_esquenta_0.rst
     dojo_inicial.rst
 
