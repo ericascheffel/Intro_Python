@@ -42,3 +42,43 @@ if 1 != 1:
     print("um difere de um")
 else:
     print("um não difere de um")
+
+_SET2_ = {
+    "script_name": "code_2",    "script_div_id": "code_2",
+    "height": 150, "title": "Conectores Lógicos"
+}  # _SEC_
+verdade = True
+mentira = False
+print('verdade or mentira :', verdade or mentira)
+print('verdade and mentira :', verdade and mentira)
+print('verdade and not mentira :', verdade and not mentira)
+print('not verdade or mentira :', not verdade or mentira)
+
+_SET3_ = {
+    "script_name": "code_3",    "script_div_id": "code_3",
+    "height": 190, "title": "Comparadores Numéricos"
+}  # _SEC_
+pequeno = 1
+medio = 2
+grande = 3
+print('pequeno < grande :', pequeno < grande)
+print('grande > medio :', grande > medio)
+print('grande != pequeno :', grande != pequeno)
+print('pequeno == grande :', pequeno == grande)
+print('pequeno >= pequeno :', pequeno >= pequeno)
+print('grande <= grande :', grande <= grande)
+
+_SET4_ = {
+    "script_name": "code_4",    "script_div_id": "code_4",
+    "height": 190, "title": "Expressões Comparadoras"
+}  # _SEC_
+pequeno = 1
+medio = 2
+grande = 3
+enorme = 9
+print('pequeno < medio < grande :', pequeno < medio < grande)
+print('grande > medio > pequeno :', grande > medio > pequeno)
+print('grande > medio < enorme) :', grande > medio < enorme)
+print('grande > medio <= medio) :', grande > medio <= medio)
+print('pequeno >= pequeno < grande :', pequeno >= pequeno < grande)
+print('grande <= grande > medio :', grande <= grande > medio)
