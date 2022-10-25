@@ -1,7 +1,5 @@
 
 
-pip.. _modulo_inicia:
-
 Nomes e Valores em Python
 ============================
 

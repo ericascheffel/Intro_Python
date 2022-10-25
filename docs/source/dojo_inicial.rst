@@ -3,7 +3,7 @@
 .. _modulo_dojo_zero:
 
 Problemas para o Dojo Inicial
-===============================
+=============================
 
 1. Ordene uma lista
 -------------------------

@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. _dojo_main:
+.. _desafio_1:
 
 
-**Sejam bem-vindos ao Dojo de Python. Encaram o desafio?**
-==========================================================
+**Desafio 1**
+==============
 
 Nesta página há uma forma enigmática e desafiadora para treinar a programação em Python.
 A proposta é desvendar os enigmas para seguir em frente. Python pode ajudá-los nesta missão!
@@ -22,7 +22,7 @@ Clique no link abaixo:
 .. toctree::
     :maxdepth: 1
 
-    index.rst
+    desafio1.rst
 
 
 .. note::
